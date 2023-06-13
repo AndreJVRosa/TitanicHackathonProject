@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    background-image: url('/resources/scene4.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+/* NPC Text */
+.npc-text {
+    width: 50%;
+    border: 3px solid black;
+    padding: 1rem;
+    text-align: center;
+}
+
+.npc-text h5 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.npc-text p {
+    font-size: 2rem;
+}
+
+/* Next Button */
+.nextBtn {
+    height: 100px;
+}
+
+/* Text Box */
+#textBox {
+    color: white;
+    padding: 15px 0;
+    font-weight: 800;
+    font-size: 2rem;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+#userOrNpcName {
+    color: blue;
+    font-weight: 900;
+    font-size: 2rem;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+/* Container */
+.container {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Options */
+.options {
+    position: absolute;
+    bottom: 120px;
+    width: 77.5%;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.optionBtn {
+    margin: 2cm;
+    transition: transform 0.3s ease;
+}
+
+.optionBtn img {
+    display: block;
+    margin: 0 auto;
+    opacity: 1;
+    width: 60%;
+}
+
+.optionBtn:hover {
+    transform: scale(1.1);
+}

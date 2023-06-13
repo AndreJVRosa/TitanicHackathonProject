@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#body_img {
+  background-image: url('resources/titanic.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.startBtn {
+  width: 100px;
+  height: 100px;
+}
+
+@media screen and (orientation: landscape) {
+  .video {
+    width: 100vw;
+    height: auto;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .video {
+    width: auto;
+    height: 100vh;
+  }
+}

@@ -1,0 +1,79 @@
+body {
+    background-image: url('resources/scene2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.npc-text {
+    vertical-align: bottom;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.nextBtn {
+    height: 100px;
+}
+
+#textBox {
+    color: white;
+    padding: 15px 0;
+    font-weight: 800;
+    font-size: 2em;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+#userOrNpcName {
+    color: blue;
+    font-weight: 900;
+    font-size: 2em;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+button {
+    height: 75vh;
+    width: 20vw;
+}
+
+.container {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .options {
+    position: absolute;
+    bottom: 120px;
+    width: 77.5%;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#door1Btn {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#door2Btn {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#door1Btn:hover,
+#door2Btn:hover {
+    border: solid transparent 20px;
+}

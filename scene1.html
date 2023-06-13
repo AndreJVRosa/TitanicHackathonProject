@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Titanic</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="generator" content="Bootply" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+    integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+    integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+  <!-- jquery form validation plugin -->
+  <script src="http://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+  
+  <link rel="stylesheet" href="css/scene1.css">
+  <script src="js/scene1.js"></script>
+</head>
+
+
+
+<body>
+  <div class="container">
+    <a class="ticket" id="ticket1" >
+      <img src="resources/ticket1NotTitanic.png" alt="Ticket 1">
+    </a>
+    <a class="ticket" id="ticket2" >
+      <img src="resources/ticket2Titanic.png" alt="Ticket 2">
+    </a>
+  </div>
+
+  <div class="npc-text">
+    <div class="npc-text-scene1">
+      <h5 id="userOrNpcName"></h5>
+      <h6 id="textBox"></h6>
+    </div>
+    <form id="updateName" action="#" method="post">
+      <input id="nameForm" type="text">
+      <button id="submit-btn" type="button" class="btn-success">Submit</button>
+    </form>
+    <a>
+      <img class="nextBtn" src="resources/nextBtn.png">
+    </a>
+  </div>
+
+
+</body>
+
+</html>

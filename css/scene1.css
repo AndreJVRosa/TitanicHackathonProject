@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set the background image for the body */
+body {
+  background-image: url('resources/scene1ChoiceBackground.png');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ensure images are always responsive and fit their containers */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Center and scale the container element */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  transform: scale(1.1);
+}
+
+/* Increase the size of the ticket on hover */
+.ticket:hover {
+  transform: scale(1.1);
+}
+
+/* Add margin to the ticket elements */
+.ticket {
+  margin: 2rem;
+}
+
+/* Rotate and position the image elements in the container */
+.container img {
+  display: block;
+  margin: 0 auto;
+  transform: rotate(-45deg);
+}
+
+/* Style the NPC text container */
+.npc-text {
+  width: 50%;
+  border: 3px solid black;
+  padding: 1rem;
+  margin: 1rem;
+  display: inline-block;
+}
+
+/* Style the header in the NPC text container */
+.npc-text h5 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Style the paragraphs in the NPC text container */
+.npc-text p {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+/* Style the next button element */
+.nextBtn {
+  height: 100px;
+}
+
+/* Style the text box element */
+#textBox {
+  color: white;
+  padding: 1.5rem 0;
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+/* Style the name element */
+#userOrNpcName {
+  color: blue;
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  overflow: hidden;
+}

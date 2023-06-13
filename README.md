@@ -1,2 +1,2 @@
-# TitanicHackatonProject
+# TitanicHackathonProject
 Visual Novel Webpage game.
